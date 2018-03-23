@@ -1,4 +1,4 @@
-.signin-block {
+.signin_block {
 	float: right;
 	text-align: center;
 	width: 400px;
@@ -11,7 +11,7 @@
 
 /*Button-Exit*/
 
-.signin-block-exit img {
+.signin_block_exit img {
 	float: right;
 	width: 30px;
 	height: 30px;
@@ -20,7 +20,7 @@
 
 /*Headline-Signin*/
 
-.headline-signin {
+.headline_signin {
 	font-size: 40px;
 	font-weight: 500;
 	padding: 73px 0 60px; 
@@ -29,11 +29,11 @@
 
 /*Form Sign In*/
 
-.form-signin {
+.form_signin {
 
 }
 
-.form-signin input {
+.form_signin input {
 	width: 300px;
 	height: 50px;
 	padding: 15px 20px;
@@ -47,7 +47,7 @@
 	margin-bottom: 40px
 }
 
-.check-license {
+.check_license {
 	margin: 0 auto 40px;
 	width: 330px;
 }
@@ -56,7 +56,7 @@
 	display: none;
 }
 
-.checkbox-custom {
+.checkbox_custom {
 	position: relative; 
 	width: 30px;     
 	height: 30px;            
@@ -64,7 +64,7 @@
 	border-radius: 5px;
 }
 
-.checkbox-custom,
+.checkbox_custom,
 .label {
 	display: inline-block;
 	vertical-align: middle;
@@ -75,7 +75,7 @@
 	font-weight: 400;
 }
 
-.checkbox:checked + .checkbox-custom::before {
+.checkbox:checked + .checkbox_custom::before {
 	content: "";            
 	display: block;			 
 	position: absolute;    
@@ -90,7 +90,7 @@
 
 /*Button-Sing In*/
 
-.button-signin {
+.button_signin {
 	font-family: 'Quicksand', sans-serif;
 	width: 150px;
 	height: 40px;
@@ -99,5 +99,39 @@
 	border-radius: 40px;
 	font-size: 20px;
 	font-weight: 400;
-	color: #000000; 
+	color: #000000;
+	margin-bottom: 40px;
+}
+
+/*Social Link*/
+
+.link_api_social {
+	margin: 5px auto;
+	display: flex;
+	width: 344px;
+	height: 74px;
+	border-radius: 15px;
+}
+
+/*Color link_api_social*/
+
+.link_api_social {
+	background-color: #3b5998;
+}
+
+.link_api_social:last-child {
+	background-color: #dd4b39;
+}
+
+.icon_social {
+	padding-top: 12px;
+	width: 50px;
+	height: 50px;
+}
+
+.social_title {
+	line-height: 74px;
+	font-size: 23px;
+	font-weight: 500;
+	color: white;
 }
