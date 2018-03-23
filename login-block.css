@@ -1,136 +1,271 @@
-.signin_block {
-	float: right;
-	text-align: center;
-	width: 400px;
-	height: 700px;
-	border-radius: 10px;
-	font-family: 'Quicksand', sans-serif;
+@media screen and (min-width: 1200px) {
+	.signin_block {
+		float: right;
+		text-align: center;
+		width: 300px;
+		height: 525px;
+		border-radius: 10px;
+		font-family: 'Quicksand', sans-serif;
+	}
+
+
+	/*Button-Exit*/
+
+	.signin_block_exit img {
+		float: right;
+		width: 22.5px;
+		height: 22.5px;
+		padding: 7.5px 7.5px 0 0;
+	}
+
+	/*Headline-Signin*/
+
+	.headline_signin {
+		font-size: 30px;
+		font-weight: 500;
+		padding: 54.75px 0 45px;
+
+	}
+
+	/*Form Sign In*/
+
+	.form_signin input {
+		width: 225px;
+		height: 37.5px;
+		padding: 11.25px 15px;
+		font-size: 15px;
+		font-weight: 400;
+		border: 1.5px solid #95989A;
+		border-radius: 37.5px;
+		box-sizing: border-box;
+		font-family: 'Quicksand', sans-serif;
+		margin-bottom: 30px;
+	}
+
+	.check_license {
+		margin: 0 auto 30px;
+		width: 247.5px;
+	}
+
+	.checkbox {
+		display: none;
+	}
+
+	.checkbox_custom {
+		position: relative;
+		width: 22.5px;
+		height: 22.5px;
+		border: 1.5px solid #95989A;
+		border-radius: 3.75px;
+	}
+
+	.checkbox_custom,
+	.label {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.label {
+		font-size: 11px;
+		font-weight: 400;
+	}
+
+	.checkbox:checked + .checkbox_custom::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 1.5px;
+		right: 1.5px;
+		bottom: 1.5px;
+		left: 1.5px;
+		background: #413548;
+		border-radius: 3px;
+	}
+
+	/*Button-Sing In*/
+
+	.button_signin {
+		font-family: 'Quicksand', sans-serif;
+		width: 112.5px;
+		height: 30px;
+		background-color: white;
+		border: 1.5px solid #96989A;
+		border-radius: 30px;
+		font-size: 15px;
+		font-weight: 400;
+		color: #000000;
+		margin-bottom: 30px;
+	}
+
+	/*Social Link*/
+
+	.link_api_social {
+		margin: 3.75px auto;
+		display: flex;
+		width: 258px;
+		height: 55.5px;
+		border-radius: 11.25px;
+	}
+
+	/*Color link_api_social*/
+
+	.link_api_social {
+		background-color: #3b5998;
+	}
+
+	.link_api_social:last-child {
+		background-color: #dd4b39;
+	}
+
+	.icon_social {
+		padding-top: 9px;
+		width: 37.5px;
+		height: 37.5px;
+	}
+
+	.social_title {
+		line-height: 55.5px;
+		font-size: 17.25px;
+		font-weight: 500;
+		color: white;
+	}
 }
 
 
-/*Button-Exit*/
 
-.signin_block_exit img {
-	float: right;
-	width: 30px;
-	height: 30px;
-	padding: 10px 10px 0 0;
-}
+/*---------------------------*/
 
-/*Headline-Signin*/
 
-.headline_signin {
-	font-size: 40px;
-	font-weight: 500;
-	padding: 73px 0 60px; 
+@media screen and (min-width: 1450px){
+	.signin_block {
+		float: right;
+		text-align: center;
+		width: 400px;
+		height: 700px;
+		border-radius: 10px;
+		font-family: 'Quicksand', sans-serif;
+	}
 
-}
 
-/*Form Sign In*/
+	/*Button-Exit*/
 
-.form_signin {
+	.signin_block_exit img {
+		float: right;
+		width: 30px;
+		height: 30px;
+		padding: 10px 10px 0 0;
+	}
 
-}
+	/*Headline-Signin*/
 
-.form_signin input {
-	width: 300px;
-	height: 50px;
-	padding: 15px 20px;
-	margin: ;
-	font-size: 20px;
-	font-weight: 400;
-	border: 2px solid #95989A;
-	border-radius: 50px;
-	box-sizing: border-box;
-	font-family: 'Quicksand', sans-serif;
-	margin-bottom: 40px
-}
+	.headline_signin {
+		font-size: 40px;
+		font-weight: 500;
+		padding: 73px 0 60px;
 
-.check_license {
-	margin: 0 auto 40px;
-	width: 330px;
-}
+	}
 
-.checkbox {
-	display: none;
-}
+	/*Form Sign In*/
 
-.checkbox_custom {
-	position: relative; 
-	width: 30px;     
-	height: 30px;            
-	border: 2px solid #95989A;
-	border-radius: 5px;
-}
+	.form_signin input {
+		width: 300px;
+		height: 50px;
+		padding: 15px 20px;
+		font-size: 20px;
+		font-weight: 400;
+		border: 2px solid #95989A;
+		border-radius: 50px;
+		box-sizing: border-box;
+		font-family: 'Quicksand', sans-serif;
+		margin-bottom: 40px
+	}
 
-.checkbox_custom,
-.label {
-	display: inline-block;
-	vertical-align: middle;
-}
+	.check_license {
+		margin: 0 auto 40px;
+		width: 330px;
+	}
 
-.label {
-	font-size: 15px;
-	font-weight: 400;
-}
+	.checkbox {
+		display: none;
+	}
 
-.checkbox:checked + .checkbox_custom::before {
-	content: "";            
-	display: block;			 
-	position: absolute;    
-	
-	top: 2px;
-	right: 2px;
-	bottom: 2px;
-	left: 2px;
-	background: #413548;    
-	border-radius: 4px;
-}
+	.checkbox_custom {
+		position: relative;
+		width: 30px;
+		height: 30px;
+		border: 2px solid #95989A;
+		border-radius: 5px;
+	}
 
-/*Button-Sing In*/
+	.checkbox_custom,
+	.label {
+		display: inline-block;
+		vertical-align: middle;
+	}
 
-.button_signin {
-	font-family: 'Quicksand', sans-serif;
-	width: 150px;
-	height: 40px;
-	background-color: white;
-	border: 2px solid #96989A;
-	border-radius: 40px;
-	font-size: 20px;
-	font-weight: 400;
-	color: #000000;
-	margin-bottom: 40px;
-}
+	.label {
+		font-size: 15px;
+		font-weight: 400;
+	}
 
-/*Social Link*/
+	.checkbox:checked + .checkbox_custom::before {
+		content: "";
+		display: block;
+		position: absolute;
 
-.link_api_social {
-	margin: 5px auto;
-	display: flex;
-	width: 344px;
-	height: 74px;
-	border-radius: 15px;
-}
+		top: 2px;
+		right: 2px;
+		bottom: 2px;
+		left: 2px;
+		background: #413548;
+		border-radius: 4px;
+	}
 
-/*Color link_api_social*/
+	/*Button-Sing In*/
 
-.link_api_social {
-	background-color: #3b5998;
-}
+	.button_signin {
+		font-family: 'Quicksand', sans-serif;
+		width: 150px;
+		height: 40px;
+		background-color: white;
+		border: 2px solid #96989A;
+		border-radius: 40px;
+		font-size: 20px;
+		font-weight: 400;
+		color: #000000;
+		margin-bottom: 40px;
+	}
 
-.link_api_social:last-child {
-	background-color: #dd4b39;
-}
+	/*Social Link*/
 
-.icon_social {
-	padding-top: 12px;
-	width: 50px;
-	height: 50px;
-}
+	.link_api_social {
+		margin: 5px auto;
+		display: flex;
+		width: 344px;
+		height: 74px;
+		border-radius: 15px;
+	}
 
-.social_title {
-	line-height: 74px;
-	font-size: 23px;
-	font-weight: 500;
-	color: white;
+	/*Color link_api_social*/
+
+	.link_api_social {
+		background-color: #3b5998;
+	}
+
+	.link_api_social:last-child {
+		background-color: #dd4b39;
+	}
+
+	.icon_social {
+		padding-top: 12px;
+		width: 50px;
+		height: 50px;
+	}
+
+	.social_title {
+		line-height: 74px;
+		font-size: 23px;
+		font-weight: 500;
+		color: white;
+	}
 }
