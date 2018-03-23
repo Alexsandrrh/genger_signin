@@ -1,0 +1,103 @@
+.signin-block {
+	float: right;
+	text-align: center;
+	width: 400px;
+	height: 700px;
+	border: 1px solid #565656;
+	border-radius: 10px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+/*Button-Exit*/
+
+.signin-block-exit img {
+	float: right;
+	width: 30px;
+	height: 30px;
+	padding: 10px 10px 0 0;
+}
+
+/*Headline-Signin*/
+
+.headline-signin {
+	font-size: 40px;
+	font-weight: 500;
+	padding: 73px 0 60px; 
+
+}
+
+/*Form Sign In*/
+
+.form-signin {
+
+}
+
+.form-signin input {
+	width: 300px;
+	height: 50px;
+	padding: 15px 20px;
+	margin: ;
+	font-size: 20px;
+	font-weight: 400;
+	border: 2px solid #95989A;
+	border-radius: 50px;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+	margin-bottom: 40px
+}
+
+.check-license {
+	margin: 0 auto 40px;
+	width: 330px;
+}
+
+.checkbox {
+	display: none;
+}
+
+.checkbox-custom {
+	position: relative; 
+	width: 30px;     
+	height: 30px;            
+	border: 2px solid #95989A;
+	border-radius: 5px;
+}
+
+.checkbox-custom,
+.label {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.label {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.checkbox:checked + .checkbox-custom::before {
+	content: "";            
+	display: block;			 
+	position: absolute;    
+	
+	top: 2px;
+	right: 2px;
+	bottom: 2px;
+	left: 2px;
+	background: #413548;    
+	border-radius: 4px;
+}
+
+/*Button-Sing In*/
+
+.button-signin {
+	font-family: 'Quicksand', sans-serif;
+	width: 150px;
+	height: 40px;
+	background-color: white;
+	border: 2px solid #96989A;
+	border-radius: 40px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #000000; 
+}
